@@ -1,10 +1,19 @@
+#Assigning variable to dataset
 eq<-datasets::quakes
 eq
 
+#Filtering rows from top and bottom
 #head(eq,100)
 #tail(eq,10)
 
+#summary of a dataset
 summary(eq)
+
+#columns
+
+quakes[1,2]
+quakes[,2]
+
 
 #knowing latitude(lat) feature
 eq$lat#1000 data items there
